@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-st.title("💬 Fake Chatbot UI")
+st.title("💬 Chatbot UI")
 
 # Initialize session state
 if "messages" not in st.session_state:
