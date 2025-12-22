@@ -8,7 +8,7 @@ driver =webdriver.Chrome()
 #load desired pagein browser
 
 driver.get("https://duckduckgo.com/")
-#print("Initial page title:",driver.title)
+print("Initial page title:",driver.title)
 driver.implicitly_wait(5)
 
 #now access the controlon the page
